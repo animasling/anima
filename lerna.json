@@ -1,0 +1,10 @@
+{
+  "npmClient": "yarn",
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "registry": "http: //npm.dev.56qq.com"
+    }
+  },
+  "version": "independent"
+}

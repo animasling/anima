@@ -1,4 +1,5 @@
 export default {
-  esm: 'rollup',
-  cjs: 'rollup',
+  esm: 'babel',
+  cjs: 'babel',
+  pkgs: ['anima-styles', 'anima'],
 };
