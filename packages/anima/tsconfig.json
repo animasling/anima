@@ -9,11 +9,9 @@
     "jsx": "react",
     "skipLibCheck": true,
     "declaration": true,
-    "baseUrl": "."
-    // "paths": {
-    //   "@anima": [
-    //     "src/index.ts"
-    //   ]
-    // }
+    "baseUrl": ".",
+    "paths": {
+      "anima": ["src/index.ts"]
+    }
   }
 }

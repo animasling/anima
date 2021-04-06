@@ -7,8 +7,7 @@ import {
   QuestionCircleOutlined,
 } from '@ant-design/icons';
 import { TableProps } from 'antd/lib/table';
-
-import '@anima/styles/lib/KeywordInput';
+import 'anima-styles/lib/KeywordInput';
 
 const { TextArea } = Input;
 const columns = [
@@ -60,7 +59,7 @@ const KeywordInput: React.FC<KeywordInputProps> = ({
   const [modalValue, setModalValue] = useState(value);
 
   return (
-    <span className={'keyword-input-wrapper'}>
+    <span className="keyword-input-wrapper">
       <Modal
         visible={visibleModal === 'modal'}
         title="关键字"
@@ -75,7 +74,7 @@ const KeywordInput: React.FC<KeywordInputProps> = ({
           placeholder={placeholder}
           onChange={e => setModalValue(e.target.value)}
         />
-        <div className={'keyword-input-modal-btn-group'}>
+        <div className="keyword-input-modal-btn-group">
           <Button onClick={() => setVisibleModal('')}>取消</Button>
           <Button
             type="primary"
@@ -92,15 +91,15 @@ const KeywordInput: React.FC<KeywordInputProps> = ({
           <HelpTable matchRules={matchRules} />
         )}
       </Modal>
-      <span className={'keyword-input-inner'}>
+      <span className="keyword-input-inner">
         <Input
-          className={'keyword-input'}
+          className="keyword-input"
           placeholder={placeholder}
           value={value}
           onChange={e => onChange && onChange(e.target.value)}
           addonAfter={
             <span
-              className={'input-addon-after'}
+              className="input-addon-after"
               title="展开编辑"
               onClick={() => {
                 setVisibleModal('modal');
@@ -114,7 +113,7 @@ const KeywordInput: React.FC<KeywordInputProps> = ({
         {showKeywordTip && !_.isEmpty(matchRules) && (
           <Popover
             title={
-              <span className={'keyword-input-popover-title'}>
+              <span className="keyword-input-popover-title">
                 <span>关键字提示</span>
                 <CloseOutlined onClick={() => setVisibleModal('')} />
               </span>

@@ -4,7 +4,11 @@
   "command": {
     "publish": {
       "registry": "http: //npm.dev.56qq.com"
+    },
+    "init": {
+      "exact": true
     }
   },
+  "exact": true,
   "version": "independent"
 }

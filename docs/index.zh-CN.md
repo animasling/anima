@@ -1,13 +1,16 @@
 ---
 hero:
-  title: Anima site
+  title: Anima
   desc: Anima 网站简介
   actions:
     - text: 开始使用
-      link: /components
+      link: /components/theme
+    - text: 组件列表
+      link: /components/input
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 特性 1
+    link: /blog
     desc: Balabala
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
     title: 特性2
@@ -18,4 +21,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2021<br />Powered by [Anima](https://d.umijs.org)
 ---
 
-## Hello Anima!
+## 你好 Anima!

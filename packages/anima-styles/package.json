@@ -1,12 +1,23 @@
 {
-  "name": "@anima/styles",
+  "name": "anima-styles",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/anima-styles.css",
+  "files": [
+    "dist/*.css",
+    "es",
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "peerDependencies": {
+    "antd": "4.15.0"
+  }
 }

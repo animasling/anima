@@ -1,6 +1,6 @@
 import React from 'react';
-import { Form, Input } from 'antd';
-// import KeywordInput from 'anima';
+import { Form } from 'antd';
+import { KeywordInput } from 'anima';
 
 const FormItem = Form.Item;
 
@@ -95,14 +95,13 @@ const KeywordInputTest: React.FC<{}> = () => {
         label="关键字"
         validateStatus="success"
       >
-        <Input />
-        {/* <KeywordInput
-        showHelpTable
-        showKeywordTip
-        matchRules={KEYWORD_MATCH_RULES}
-        onChange={handleQueryChange}
-        onOk={handleQueryModalOK}
-      /> */}
+        <KeywordInput
+          showHelpTable
+          showKeywordTip
+          matchRules={KEYWORD_MATCH_RULES}
+          onChange={handleQueryChange}
+          onOk={handleQueryModalOK}
+        />
       </FormItem>
     </Form>
   );
