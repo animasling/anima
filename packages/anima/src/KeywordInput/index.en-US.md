@@ -20,12 +20,12 @@ group:
 
 #### options
 
-| property       | description                                                         | type                               | default |
-| -------------- | ------------------------------------------------------------------- | ---------------------------------- | ------- |
-| value          | 值                                                                  | string                             | -       |
-| onChange       | 值更改时的回调                                                      | (value: string) => void            | -       |
-| onOK           | 点击 model 的确定按钮回调                                           | (value: string) => void;           | -       |
-| matchRules     | 匹配规则                                                            | { label: string; value: string }[] | -       |
-| showHelpTable  | 是否显示匹配规则 table（当为 true，且 matchRules 不为空时才会显示） | boolean                            | false   |
-| showKeywordTip | 输入框右侧是否显示关键字提示按钮                                    | boolean                            | false   |
-| placeholder    | input 以及弹框 textarea 输入提示                                    | string                             | 关键字  |
+| property       | description                                                                     | type                               | default |
+| -------------- | ------------------------------------------------------------------------------- | ---------------------------------- | ------- |
+| value          | value                                                                           | string                             | -       |
+| onChange       | the callback when value changed                                                 | (value: string) => void            | -       |
+| onOK           | the callback of OK button on modal                                              | (value: string) => void;           | -       |
+| matchRules     | match rule                                                                      | { label: string; value: string }[] | -       |
+| showHelpTable  | is show match rule table（it will show when true and matchRules is not empty ） | boolean                            | false   |
+| showKeywordTip | is show keyword tip button at the right of the input                            | boolean                            | false   |
+| placeholder    | the placeholder of input and textarea on modal                                  | string                             | keyword |
