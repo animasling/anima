@@ -18,20 +18,6 @@ function getComponentMenus(locale: string) {
   }));
 }
 
-let publicPath;
-
-switch (process.env.CODE_ENV) {
-  case 'dev':
-    publicPath = 'https://devstatic.56qq.com/finance-mobile/';
-    break;
-  case 'beta':
-    publicPath = 'https://qastatic.56qq.com/finance-mobile/';
-    break;
-
-  default:
-    break;
-}
-
 export default {
   title: 'Anima 组件库',
   mode: 'site',
@@ -48,7 +34,6 @@ export default {
     '/components': getComponentMenus('zh-CN'),
   },
   outputPath: 'docs-dist',
-  publicPath,
   devServer: {
     port: '8001',
   },
