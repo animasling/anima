@@ -7,7 +7,7 @@ const componentMenus = [
   {
     title: 'Input Component',
     'title.zh-CN': '输入组件',
-    children: ['KeywordInput'],
+    children: ['KeywordInput', 'TestCom'],
   },
 ];
 
@@ -21,7 +21,7 @@ function getComponentMenus(locale: string) {
 export default {
   title: 'Anima 组件库',
   mode: 'site',
-  exportStatic: {},
+  // exportStatic: {},
   locales: [
     ['zh-CN', '中文'],
     ['en-US', 'English'],
