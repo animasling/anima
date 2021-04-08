@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "anima": ["packages/anima/src"],
+      "anima/*": ["packages/anima/src/*", "*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./typings"]
+  },
+  "include": [".dumi/**/*", ".dumirc.ts", "packages/anima/src/**/*"]
+}

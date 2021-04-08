@@ -1,0 +1,60 @@
+@baseSpace: 8px;
+@fontColorMain: #333;
+@fontColorMinor: #999;
+@blue: #1890ff;
+
+.pie-warpper {
+  position: relative;
+}
+
+.legend-box {
+  cursor: default;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  color: @fontColorMain;
+  vertical-align: top;
+  .legend-name {
+    display: inline-block;
+    vertical-align: text-bottom;
+  }
+  .legend-name-hover {
+    cursor: pointer;
+    &:hover {
+      color: @blue;
+    }
+  }
+  .legend-val {
+    position: absolute;
+    top: 0;
+    right: @baseSpace + 2;
+    color: @fontColorMinor;
+  }
+}
+
+.ring-chart-info {
+  position: absolute;
+  left: 28%;
+  top: 50%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  line-height: 2;
+  transform: translate(-50%, -50%);
+  .title {
+    color: @fontColorMinor;
+    text-align: center;
+  }
+  .count {
+    color: @fontColorMain;
+  }
+}
+
+.goback-icon {
+  position: absolute;
+  z-index: 99999;
+}

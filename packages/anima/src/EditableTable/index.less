@@ -1,0 +1,28 @@
+.editable-cell-value-wrap {
+  cursor: pointer;
+  padding: 0 6px;
+  border: 1px solid transparent;
+}
+
+.editable-cell {
+  width: 80px;
+  vertical-align: baseline;
+}
+
+.editable-row {
+  &:hover {
+    .editable-cell-value-wrap {
+      padding: 0 6px;
+      border: 1px solid #d9d9d9;
+      border-radius: 2px;
+    }
+  }
+}
+
+.edited-row {
+  background-color: #e6f7ff;
+  td {
+    border-top: 1px solid #91d5ff !important;
+    border-bottom: 1px solid #91d5ff !important;
+  }
+}
