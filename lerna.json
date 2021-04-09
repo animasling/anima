@@ -1,14 +1,14 @@
 {
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "packages": ["packages/*"],
   "command": {
     "publish": {
-      "registry": "http: //npm.dev.56qq.com"
+      "registry": "http://npm.dev.56qq.com"
     },
     "init": {
       "exact": true
     }
   },
   "exact": true,
-  "version": "independent"
+  "version": "1.0.0"
 }
