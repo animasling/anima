@@ -33,6 +33,8 @@ export default {
     '/en-US/components': getComponentMenus('en-US'),
     '/components': getComponentMenus('zh-CN'),
   },
+  base: '/dumiSite',
+  publicPath: 'https://animasling.github.io/dumiSite/',
   outputPath: 'docs-dist',
   devServer: {
     port: '8001',
