@@ -13,11 +13,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
   "peerDependencies": {
     "antd": "4.15.0"
-  }
+  },
+  "gitHead": "ca7e550c312e3cc593921728cdf53bf993e7546b"
 }
