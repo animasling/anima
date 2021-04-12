@@ -18,6 +18,5 @@
   },
   "peerDependencies": {
     "antd": "4.15.0"
-  },
-  "gitHead": "b113a9ad4100ccf0416199e56aac75d67d7a258f"
+  }
 }
