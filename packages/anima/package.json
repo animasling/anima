@@ -20,7 +20,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@ant-design/icons": "^4.4.0",
     "antd": "^4.15.0",
@@ -30,5 +30,6 @@
     "antd": "4.15.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "gitHead": "01137af54a6d9b00164d55fc66c59328ac666b6f"
 }

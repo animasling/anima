@@ -25,3 +25,8 @@
 # ide
 /.vscode
 /.idea
+
+# package
+/packages/**/es
+/packages/**/lib
+/packages/**/dist
