@@ -21,7 +21,7 @@ function getComponentMenus(locale: string) {
 export default {
   title: 'Anima 组件库',
   mode: 'site',
-  // exportStatic: {},
+  exportStatic: {},
   locales: [
     ['zh-CN', '中文'],
     ['en-US', 'English'],

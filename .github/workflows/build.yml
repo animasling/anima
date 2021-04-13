@@ -1,0 +1,30 @@
+name: Update docs-dist
+
+
+on:
+  push:
+    # 推送分支时触发
+    branches: [ action ]
+
+jobs:
+  update-dist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@action
+
+      - name: install
+        run: yarn
+        
+      - name: build and deploy
+        run: yarn docs:build & yarn docs:deploy 
+      
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          # 设置自己的用户名 邮箱
+          git config --global user.email "animas@126.com"
+          git config --global user.name "animasling"
+          git pull
+          git add -A
+          git commit -m "🤖 auto: updated dist" || exit 0
+          git push
