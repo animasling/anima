@@ -28,6 +28,12 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:animasling/dumiSite.git",
+    "branch": "master",
+    "platform": "github"
+  },
   "dependencies": {
     "antd": "^4.15.0",
     "react": "^16.12.0"

@@ -18,6 +18,16 @@ function getComponentMenus(locale: string) {
   }));
 }
 
+let publicPath = {
+  development: '/',
+  production: 'https://animasling.github.io/dumiSite/',
+}[process.env.NODE_ENV];
+
+let base = {
+  development: '/',
+  production: '/dumiSite',
+}[process.env.NODE_ENV];
+
 export default {
   title: 'Anima 组件库',
   mode: 'site',
@@ -33,8 +43,8 @@ export default {
     '/en-US/components': getComponentMenus('en-US'),
     '/components': getComponentMenus('zh-CN'),
   },
-  base: '/dumiSite',
-  publicPath: 'https://animasling.github.io/dumiSite/',
+  base,
+  publicPath,
   outputPath: 'docs-dist',
   devServer: {
     port: '8001',
