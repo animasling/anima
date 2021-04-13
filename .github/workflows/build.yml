@@ -4,13 +4,13 @@ name: Update docs-dist
 on:
   push:
     # 推送分支时触发
-    branches: [ action ]
+    branches: [ github-action ]
 
 jobs:
   update-dist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@action
+      - uses: actions/checkout@github-action
 
       - name: install
         run: yarn
