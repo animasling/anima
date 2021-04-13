@@ -9,19 +9,11 @@ nav:
 
 ```tsx | pure
 import React from 'react';
+import { TestCom } from 'anima';
 
-interface ITestComProps {
-  /**
-   * @title 传入的title
-   */
-  title: string;
-}
+const Test: React.FC = () => <TestCom title="aaaaaa" des="bbbbb" />;
 
-const TestCom: React.FC<ITestComProps> = ({ title }) => (
-  <h1 style={{ position: 'fixed', top: 0, left: 0 }}>{title}</h1>
-);
-
-export default TestCom;
+export default Test;
 ```
 
 // type: warnig,info(默认), success, error
