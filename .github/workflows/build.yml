@@ -16,7 +16,7 @@ jobs:
         run: yarn
         
       - name: build and deploy
-        run: yarn docs:build & yarn docs:deploy 
+        run: yarn docs:deploy & yarn docs:build
       
       - name: Commit and push if changed
         run: |-
