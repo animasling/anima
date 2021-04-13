@@ -10,17 +10,16 @@ jobs:
   update-dist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@github-action
+      - uses: actions/checkout@master
+        with: 
+          ref: github-action
 
       - name: install
         run: yarn
         
-      - name: build
-        run: yarn docs:build
-
       - name: deploy
-        run: yarn docs:deploy
-      
+        run: yarn deploy
+   
       - name: Commit and push if changed
         run: |-
           git diff
