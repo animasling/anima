@@ -1,0 +1,4 @@
+{
+  "packages/**/src/**/*.{ts,tsx}": ["prettier --write"],
+  "packages/**/src/**/*.{less,css}": ["stylelint --fix"]
+}
