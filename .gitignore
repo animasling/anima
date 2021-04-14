@@ -9,7 +9,7 @@
 
 # production
 /dist
-/docs-dist
+# /docs-dist
 /packages/**/node_modules
 /packages/**/yarn.lock
 

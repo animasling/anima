@@ -32,7 +32,6 @@ const KeywordInputTest: React.FC<{}> = () => {
           onChange={handleQueryChange}
           onOk={handleQueryModalOK}
         />
-        <Dep />
       </FormItem>
       <FormItem>
         <Dep />

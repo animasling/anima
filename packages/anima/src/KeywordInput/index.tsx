@@ -1,3 +1,8 @@
+/**
+ * title: keywordInput
+ * desc: 基于input封装的关键字输入框，可以配置提示table
+ */
+
 import React, { useState } from 'react';
 import _ from 'lodash';
 import { Input, Modal, Table, Popover, Button } from 'antd';
