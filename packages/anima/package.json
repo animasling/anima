@@ -1,7 +1,7 @@
 {
   "name": "anima-zoey",
   "version": "0.0.6",
-  "description": "",
+  "description": "a component library based on antd",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",

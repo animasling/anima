@@ -1,11 +1,11 @@
 ---
+group:
+  title: 数据展示
+  order: 3 
 nav:
   title: 组件
   path: /components
   order: 3  
-  group:
-    title: 展示数据
-    order: 3 
 ---
 
 ## 自定义 chart

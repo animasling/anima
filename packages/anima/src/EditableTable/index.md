@@ -1,11 +1,11 @@
 ---
+group:
+  title: 数据录入
+  order: 2  
 nav:
   title: 组件
   path: /components
   order: 2  
-  group:
-    title: 数据录入
-    order: 2  
 ---
 
 ## 可编辑表格

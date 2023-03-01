@@ -1,11 +1,11 @@
 ---
+group:
+  title: DATA_INPUT
+  order: 1  
 nav:
   title: Components
   path: /components
   order: 1 
-  group:
-    title: DATA_INPUT
-    order: 1  
 ---
 
 ## 周期时间选择器

@@ -1,9 +1,9 @@
 ---
-title: blog
+title: Blog
 description: blog
 nav:
   title: Bolg
-  order: 4
+  order: 2
 ---
 
 #### blog

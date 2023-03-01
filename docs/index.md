@@ -1,23 +1,20 @@
 ---
 hero:
   title: Anima
-  description: 基于antd再次封装的组件库
+  description: 欢迎访问我的前端日志
   actions:
-    - text: 指南
-      link: /guide
+    - text: 博客
+      link: /blog
     - text: 组件
-      link: /components/custom-chart
-# features:
-#   - title: Hello
-#     emoji: 💎
-#     description: Put hello description here
-#   - title: World
-#     emoji: 🌈
-#     description: Put world description here
-#   - title: '!'
-#     emoji: 🚀
-#     description: Put ! description here
-
+      link: /components/guide
+features:
+  - title: 组件 anima-zoey
+    emoji: 💎
+    description: 开箱即用
+  - title: 我的博客
+    emoji: 🌈
+    description: 分享平时学到的知识
+  - title: 面试题
+    emoji: 🚀
+    description: 收集一些面试题
 ---
-
-## Hello Anima!

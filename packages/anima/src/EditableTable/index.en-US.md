@@ -1,11 +1,11 @@
 ---
+group:
+  title: DATA_INPUT
+  order: 2
 nav:
   title: Components
   path: /components
-  order: 2  
-  group:
-    title: DATA_INPUT
-    order: 2 
+  order: 2   
 ---
 
 ## 可编辑表格

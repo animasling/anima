@@ -1,9 +1,11 @@
 ---
-title: changelog
-description: changelog
+title: Changelog
+group:
+  title: other
+  order: 4
 nav:
   title: Changelog
-  order: 3
+  path: /changelog
 ---
 
 # changelog

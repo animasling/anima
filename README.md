@@ -16,23 +16,22 @@ TODO
 ## Development
 
 ```bash
-# install dependencies
-$ yarn install
 
-# develop library by docs demo
+# 启动项目
 $ yarn start
 
-# build library source code
-$ yarn run build
-
-# build library source code in watch mode
-$ yarn run build:watch
-
-# build docs
+# 打包文档
 $ yarn run docs:build
 
-# check your project for potential problems
-$ yarn run doctor
+# 打包组件源码
+$ yarn run build
+
+# 打包文档并部署
+$ yarn run deploy
+
+# 打包组件源码并发布包到npm 库
+$ yarn run release
+
 ```
 
 ## LICENSE

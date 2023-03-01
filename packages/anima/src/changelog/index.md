@@ -1,9 +1,11 @@
 ---
 title: 更新日志
-description: 更新日志
+group:
+  title: 其他
+  order: 4
 nav:
   title: 更新日志
-  order: 3
+  path: /changelog
 ---
 
 # 更新日志

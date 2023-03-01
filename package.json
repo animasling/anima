@@ -1,7 +1,7 @@
 {
   "name": "anima",
   "version": "0.0.6",
-  "description": "A react library developed with dumi",
+  "description": "Anima的前端日志",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",

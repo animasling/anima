@@ -1,11 +1,11 @@
 ---
+group:
+  title: 数据录入
+  order: 1
 nav:
   title: 组件
   path: /components
   order: 1  
-  group:
-    title: 数据录入
-    order: 1
 ---
 
 ## 周期时间选择器
