@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanima=self.webpackChunkanima||[]).push([[39],{92432:function(u,a,_){_.r(a);var m=_(71100),s=_(35532),o=_(80543),i=_(39047),l=_(4046),E=_(67915),d=_(14570),M=_(67294),n=_(85893);function e(){var t=(0,d.eL)(),P=t.texts;return(0,n.jsx)(d.dY,{children:(0,n.jsx)(n.Fragment,{})})}a.default=e}}]);
