@@ -1,9 +1,6 @@
 ---
 title: 指南
-nav:
-  title: 组件
-  path: /guide
-  order: 1  
+order: 1  
 ---
 
 安装

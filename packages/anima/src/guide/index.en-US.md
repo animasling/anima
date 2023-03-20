@@ -1,9 +1,6 @@
 ---
 title: Guide
-nav:
-  title: Components
-  path: /guide
-  order: 1
+order: 1
 ---
 install
 

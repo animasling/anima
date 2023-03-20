@@ -13,7 +13,7 @@ features:
     description: 开箱即用
   - title: 我的博客
     emoji: 🌈
-    description: 分享平时学到的知识
+    description: 记录分享学到的知识
   - title: 面试题
     emoji: 🚀
     description: 收集一些面试题

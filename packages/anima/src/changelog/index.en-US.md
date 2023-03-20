@@ -3,9 +3,6 @@ title: Changelog
 group:
   title: other
   order: 4
-nav:
-  title: Changelog
-  path: /changelog
 ---
 
 # changelog

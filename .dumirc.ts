@@ -17,6 +17,14 @@ export default defineConfig({
     name: 'anima',
     logo: `${publicPath}logo.png`,
     footer: 'Open-source MIT Licensed | Copyright © 2023<br />Powered by [Anima]',
+    // nav: {
+    //   mode: "override",
+    //   value: [
+    //     { title: '组件', link: '/components' },
+    //     { title: '博客', link: '/blog' },
+    //     { title: '面试', link: '/interview' }
+    //   ]
+    // }
   },
   locales: [
     { id: 'zh-CN', name: '中文' },
